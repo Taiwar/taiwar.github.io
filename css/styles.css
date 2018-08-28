@@ -1,0 +1,74 @@
+body {
+    background-color: #263238;
+}
+
+h1, h2, h3, h4, p, a, span {
+    color: white;
+}
+
+.brand-logo {
+    font-family: Mrs Sheppards, sans-serif;
+}
+
+.edged {
+    border-bottom: 1px solid #3f51b5;
+}
+
+.dark-panel{
+    background: #333333 !important;
+}
+
+.darkest {
+    background: #1b2428 !important;
+}
+
+.sidenav {
+    background: #212121 !important;
+}
+
+.sidenav a {
+    color: white !important;
+}
+
+.sidenav a:hover {
+    background: #323232 !important;
+}
+
+.collection {
+    background: inherit !important;
+    border: none !important;
+    margin-top: 0 !important;
+}
+
+.collection-item {
+    background: inherit !important;
+    border: none !important;
+}
+
+.collection-header h5 {
+    font-size: 1.24rem !important;
+    margin: .8rem 0 .3rem .5rem !important;
+}
+
+.card-title {
+    font-weight: 500 !important;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #90caf9 !important;
+    margin-right: 12px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+
+.throttle {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0;
+}

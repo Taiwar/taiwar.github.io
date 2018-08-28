@@ -3,19 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <title>Jonas - Taiwar</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Mrs+Sheppards" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper indigo">
-            <a href="#" class="brand-logo">Taiwar</a>
+    <nav class="edged darkest">
+        <div class="nav-wrapper">
+            <a href="#" data-target="slide-out" class="button-collapse show-on-large sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="#" class="brand-logo">&nbsp;Taiwar</a>
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <ul class="collection">
+                        <li class="collection-header"><h5>Projects</h5></li>
+                        <li class="collection-item avatar">
+                            <a href="https://github.com/Taiwar/Throttle">
+                                <img src="https://raw.githubusercontent.com/Taiwar/Throttle/master/public/icon.png" alt="" class="throttle">
+                                <span class="title">Throttle</span>
+                            </a>
+                            <a href="https://github.com/Taiwar/Efficiency">
+                                <img src="https://raw.githubusercontent.com/Taiwar/Efficiency/master/public/favicon.png" alt="" class="circle">
+                                <span class="title">Efficiency</span>
+                            </a>
+                            <a href="https://github.com/Taiwar/DepiKTure">
+                                <img src="https://raw.githubusercontent.com/Taiwar/DepiKTure/master/app/src/main/res/drawable-xhdpi/ic_launcher.png" alt="" class="circle">
+                                <span class="title">DepiKTure</span>
+                            </a>
+                            <a href="https://github.com/Taiwar">
+                                <img src="assets/github.png" alt="" class="circle">
+                                <span class="title">All Projects</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </nav>
-    <div class="row">
-        <div class="col s12 m6 offset-m2">
-            <h2 class="indigo">Hello World!</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <h2>Projects</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6 m4">
+                <div class="card indigo lighten-1 horizontal">
+                    <div class="card-image white">
+                        <img src="https://raw.githubusercontent.com/Taiwar/Throttle/master/public/icon.png" class="responsive-img">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <span class="card-title">Throttle</span>
+                        </div>
+                        <div class="card-action indigo-text">
+                            <a href="https://github.com/Taiwar/Throttle">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m4">
+                <div class="card red lighten-1 horizontal">
+                    <div class="card-image white">
+                        <img src="https://raw.githubusercontent.com/Taiwar/Efficiency/master/public/favicon.png" class="responsive-img">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <span class="card-title">Efficiency</span>
+                        </div>
+                        <div class="card-action indigo-text">
+                            <a href="https://github.com/Taiwar/Efficiency">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6 m4">
+                <div class="card green lighten-1 horizontal">
+                    <div class="card-image white">
+                        <img src="https://raw.githubusercontent.com/Taiwar/DepiKTure/master/app/src/main/res/drawable-xhdpi/ic_launcher.png" class="responsive-img">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <span class="card-title">DepiKTure</span>
+                        </div>
+                        <div class="card-action indigo-text">
+                            <a href="https://github.com/Taiwar/DepiKTure">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="js/sidenav.js"></script>
 </body>
 </html>
