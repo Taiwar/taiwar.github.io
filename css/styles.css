@@ -74,5 +74,6 @@ h1, h2, h3, h4, p, a, span {
 }
 
 .project-img {
+    padding: 6px;
     min-width: 75px;
 }
