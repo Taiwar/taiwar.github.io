@@ -93,6 +93,10 @@ h1, h2, h3, h4, p, a, span {
     color: white !important;
 }
 
+.card .card-action {
+    border-top: 1px solid rgba(200,200,200,0.7) !important;
+}
+
 .green-accent {
     background-color: #00a846 !important;
 }
