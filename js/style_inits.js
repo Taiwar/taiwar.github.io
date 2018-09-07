@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
         closeOnClick: true,
     });
     let collapsible_elems = document.getElementsByClassName("collapsed");
-    console.log(collapsible_elems);
     Array.from(collapsible_elems).forEach((elem) => {
         elem.addEventListener("click", function() {
             this.classList.toggle("active");
