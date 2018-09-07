@@ -74,6 +74,42 @@ h1, h2, h3, h4, p, a, span {
 }
 
 .project-img {
+    margin-left: auto;
+    margin-right: auto;
     padding: 6px;
     min-width: 75px;
+    max-width: 250px;
+}
+
+.content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.card-action {
+    color: white !important;
+}
+
+.green-accent {
+    background-color: #00a846 !important;
+}
+
+blockquote {
+    font-size: medium;
+    color: black;
+}
+
+blockquote.indigo-quote {
+    border-left: 5px solid #3f51b5 !important;
+}
+
+blockquote.red-quote {
+    border-left: 5px solid #d50000  !important;
+}
+
+blockquote.green-quote {
+    border-left: 5px solid #00a846  !important;
 }
