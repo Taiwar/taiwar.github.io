@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{"+1Jk":function(n,o,t){"use strict";t.r(o),function(n){var a=t("FA6U"),c=t.n(a),e=t("tzyG"),s=t.n(e);o.default=function(){return n("div",{class:c.a.home},n("h1",null,"Home"),n("p",null,"Under construction"),n("img",{src:s.a,alt:"Taiwar logo"}))}}.call(this,t("hosL").h)},FA6U:function(n){n.exports={home:"home__MseGd"}},tzyG:function(n,o,t){n.exports=t.p+"9a29f25349c4431d78b67b378e33da5a.png"}}]);
-//# sourceMappingURL=route-home.chunk.f73b6.js.map
