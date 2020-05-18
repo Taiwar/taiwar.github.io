@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{"+1Jk":function(o,n,e){"use strict";e.r(n),function(o){var s=e("FA6U"),t=e.n(s),a=e("tzyG"),i=e.n(a);n.default=()=>o("div",{class:t.a.home},o("h1",null,"Home"),o("p",null,"This is the Home component."),o("img",{src:i.a,alt:"Taiwar logo"}))}.call(this,e("hosL").h)},FA6U:function(o){o.exports={home:"home__MseGd"}},tzyG:function(o,n,e){o.exports=e.p+"9a29f25349c4431d78b67b378e33da5a.png"}}]);
+//# sourceMappingURL=route-home.chunk.7709f.esm.js.map

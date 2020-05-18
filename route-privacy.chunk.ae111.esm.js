@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"7Sut":function(n){n.exports={profile:"profile__--7IS"}},wvoh:function(n,o,i){"use strict";i.r(o),function(n){function t(){return n("div",{class:r.a.profile},n("h1",null,"Privacy"))}i.d(o,"default",(function(){return t}));var u=i("7Sut"),r=i.n(u)}.call(this,i("hosL").h)}}]);
+//# sourceMappingURL=route-privacy.chunk.ae111.esm.js.map
