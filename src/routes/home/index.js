@@ -29,7 +29,7 @@ function Home() {
 					<List.Icon name='folder' />
 					<List.Content>
 						<List.Header class={style.projectItem}>
-							<Link href={project.html_url}>{project.name}</Link>
+							<a href={project.html_url}>{project.name}</a>
 						</List.Header>
 						<List.Description>{project.description}</List.Description>
 					</List.Content>
