@@ -1,0 +1,17 @@
+.header {
+	margin-bottom: 3vh;
+}
+
+.path {
+	padding: .1rem;
+	background-color: #f59930;
+	color: #353333;
+}
+
+.gradientHeader {
+	background: repeating-linear-gradient(90deg, #f59930, #f59930, 2px, #353333 0, #353333 10px);
+}
+
+.headerItem {
+	font-size: 1.5rem !important;
+}

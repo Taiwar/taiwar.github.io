@@ -1,8 +1,11 @@
+import { React } from 'preact'
 import { Router } from 'preact-router';
 
 // Code-splitting is automated for routes
 import Home from '../routes/home';
 import Profile from '../routes/privacy';
+import { Container } from 'semantic-ui-react'
+import TemporusHeader from './header'
 
 function App() {
 	let currentUrl;
@@ -13,10 +16,13 @@ function App() {
 
 	return (
 		<div id="app">
-			<Router onChange={handleRoute}>
-				<Home path="/" />
-				<Profile path="/privacy/" />
-			</Router>
+			<Container>
+				<TemporusHeader />
+				<Router onChange={handleRoute}>
+					<Home path="/" />
+					<Profile path="/privacy/" />
+				</Router>
+			</Container>
 		</div>
 	);
 }
