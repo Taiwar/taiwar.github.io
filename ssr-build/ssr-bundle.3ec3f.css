@@ -460,7 +460,7 @@ a:hover {
 }
 
 .gradientHeader__1EQlL {
-	background: repeating-linear-gradient(90deg, #f59930, #f59930, 2px, #353333 0, #353333 10px);
+	background: repeating-linear-gradient(90deg, #f59930, #f59930 2px ,#00000000 0, #00000000 10px);
 }
 
 .headerItem__rX5oC {
@@ -468,4 +468,4 @@ a:hover {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.e819f.css.map*/
+/*# sourceMappingURL=ssr-bundle.3ec3f.css.map*/
