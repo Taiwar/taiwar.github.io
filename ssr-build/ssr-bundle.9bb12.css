@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin);
+@import url(//fonts.googleapis.com/css?family=Fira+Code);
  /*
  * # Semantic UI - 2.4.0
  * https://github.com/Semantic-Org/Semantic-UI
@@ -373,26 +374,61 @@
 html, body {
 	height: 100%;
 	width: 100%;
-	padding: 0;
+	padding: 20px 0 0 0;
 	margin: 0;
-	background: #303030;
-	font-family: 'Helvetica Neue', arial, sans-serif;
-	font-weight: 400;
-	color: #FAFAFA;
+	background: #353333;
+	font-family: 'Fira Code', arial, sans-serif !important;
+	color: #FAFAFA !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4,  h5, p, .header {
+	font-family: 'Fira Code', arial, sans-serif !important;
+	color: #FAFAFA !important;
+}
+
+.description {
+	font-family: 'Fira Code', arial, sans-serif !important;
+	color: #BBB !important;
+}
+
+  h1 {
+	font-size: 2rem !important;
+	color: #f59930 !important;
+}
+
+h2 {
+	color: #f59930 !important;
+	padding-bottom: .5rem;
+	border-bottom: 3px dotted #f59930;
+}
+
+p {
+	font-size: 1.5rem;
 }
 
 * {
 	box-sizing: border-box;
 }
 
+a {
+	color: #FAFAFA !important;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #CCCCCC !important;
+	text-decoration: underline;
+}
+
+
 #app {
 	height: 100%;
 }
 
-.header {
-	color: #FAFAFA !important;
+.padded {
+	padding: 20px !important;
 }
 
 .home__MseGd {
@@ -400,41 +436,37 @@ html, body {
 	width: 100%;
 }
 
-.highlight__Gt_5K {
-	padding-top: 20px;
-	background: #404040;
-	min-height: 100vh;
-
-	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	animation: pulse__OZEFX 2s infinite;
+.projectItem__h6pa- {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+	color: #FAFAFA !important;
+	text-decoration: underline;
+	padding-bottom: .4rem;
 }
 
-@keyframes pulse__OZEFX {
-	0% {
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-	}
-
-	70% {
-		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-	}
-
-	100% {
-		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-	}
-}
-
-.logo__1yT4h {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 30%;
-}
-
-.profile__--7IS {
-	padding: 56px 20px;
-	min-height: 100%;
-	width: 100%;
+.projectItem__h6pa-:hover {
+	color: #CCCCCC !important;
+	text-decoration: underline;
 }
 
 
-/*# sourceMappingURL=ssr-bundle.a1732.css.map*/
+.header__3QGkI {
+	margin-bottom: 3vh;
+}
+
+.path__rLAI- {
+	padding: .1rem;
+	background-color: #f59930;
+	color: #353333;
+}
+
+.gradientHeader__1EQlL {
+	background: repeating-linear-gradient(90deg, #f59930, #f59930, 2px, #353333 0, #353333 10px);
+}
+
+.headerItem__rX5oC {
+	font-size: 1.5rem !important;
+}
+
+
+/*# sourceMappingURL=ssr-bundle.9bb12.css.map*/
