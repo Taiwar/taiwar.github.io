@@ -11,15 +11,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/icons/icon-512.png"
   },
   {
-    "revision": "75b15c804d3d93dd1f8b",
-    "url": "/bundle.75b15.js"
-  },
-  {
-    "revision": "75b15c804d3d93dd1f8b",
+    "revision": "fa24b659369b97a9b27e",
     "url": "/bundle.9bdac.css"
   },
   {
-    "revision": "f4f68e88b603b03da7ec42ea18b8a118",
+    "revision": "fa24b659369b97a9b27e",
+    "url": "/bundle.fa24b.js"
+  },
+  {
+    "revision": "1236bc77a713aca7d82627e9f1af3e0f",
     "url": "/index.html"
   },
   {
@@ -27,12 +27,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/polyfills.84c13.js"
   },
   {
-    "revision": "fb87f02bca0fddcf9aa1",
-    "url": "/route-home.chunk.d8905.css"
+    "revision": "4b4c30195ae92ad3ef18",
+    "url": "/route-home.chunk.4b4c3.js"
   },
   {
-    "revision": "fb87f02bca0fddcf9aa1",
-    "url": "/route-home.chunk.fb87f.js"
+    "revision": "4b4c30195ae92ad3ef18",
+    "url": "/route-home.chunk.d8905.css"
   },
   {
     "revision": "927d2739803078d42e0d",
@@ -47,7 +47,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sw-debug.js"
   },
   {
-    "revision": "5ee8b3a6f63249e9733fbf8ebfbef897",
+    "revision": "9aed12eeba59eac547de34f8f5c63a91",
     "url": "/sw-esm.js"
   },
   {
