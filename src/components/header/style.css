@@ -9,7 +9,7 @@
 }
 
 .gradientHeader {
-	background: repeating-linear-gradient(90deg, #f59930, #f59930, 2px, #353333 0, #353333 10px);
+	background: repeating-linear-gradient(90deg, #f59930, #f59930 2px ,#00000000 0, #00000000 10px);
 }
 
 .headerItem {

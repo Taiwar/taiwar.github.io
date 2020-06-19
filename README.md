@@ -19,3 +19,12 @@ yarn serve
 # run tests with jest and preact-render-spy 
 yarn test
 ```
+
+## Publishing
+``` bash
+# build for production with minification
+yarn build
+
+# publish production build to github-pages
+yarn deploy
+```

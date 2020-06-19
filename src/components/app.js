@@ -16,6 +16,7 @@ function App() {
 
 	return (
 		<div id="app">
+			<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Fira+Code" />
 			<Container>
 				<TemporusHeader />
 				<Router onChange={handleRoute}>
